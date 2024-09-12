@@ -1,0 +1,68 @@
+body {
+    background-color: #467d91; /* Fundo azul claro */
+    color: #010101; /* Texto preto escuro */
+    margin: 30px; /* Espaço de 20px ao redor do elemento */
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: #467d91; /* Azul do Bootstrap */
+  }
+  
+  .btn-outline-success {
+    border-color: #000000; /* Laranja para destacar */
+    color: #467d91;
+  }
+
+  hr {
+    margin:auto;
+    height: 12px;
+    background: #000000;
+  }
+
+  h1 {
+    font-size: 2,5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    
+  }
+   
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+
+  .btn {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #467d91 ;
+  }
+
+    .flex-container > image, iframe {
+    background-color: none;
+    margin: 25px;
+    padding: 25px;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 600px;
+  /* object-position: ; */
+  object-fit: contain;
+  
+}
+
+.foto{
+  height: 515px;
+  width: 350px;
+}
