@@ -45,24 +45,26 @@ body {
     background-color: #467d91 ;
   }
 
-    .flex-container > image, iframe {
-    background-color: none;
-    margin: 25px;
-    padding: 25px;
-    justify-content: space-around;
-    align-content: flex-start;
+  .row {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço ao redor dos itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    height: 600px; /* Ajuste conforme necessário */
   }
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 600px;
-  /* object-position: ; */
-  object-fit: contain;
   
-}
-
-.foto{
-  height: 515px;
-  width: 350px;
-}
+  .foto {
+    height: 515px; /* Altura desejada para a imagem e o vídeo */
+    width: 350px; /* Largura desejada para a imagem e o vídeo */
+  }
+  
+  .foto img {
+    width: 100%; /* Faz com que a imagem preencha o contêiner */
+    height: 100%; /* Faz com que a imagem preencha o contêiner */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+  }
+  
+  .foto iframe {
+    width: 100%; /* Faz com que o iframe preencha o contêiner */
+    height: 100%; /* Faz com que o iframe preencha o contêiner */
+  }
+  
