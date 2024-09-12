@@ -49,22 +49,24 @@ body {
     display: flex;
     justify-content: space-around; /* Distribui o espaço ao redor dos itens */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    height: 600px; /* Ajuste conforme necessário */
-  }
-  
-  .foto {
-    height: 515px; /* Altura desejada para a imagem e o vídeo */
-    width: 350px; /* Largura desejada para a imagem e o vídeo */
-  }
-  
-  .foto img {
+}
+
+.foto {
+    width: 560px; /* Largura desejada para a imagem e o vídeo */
+    height: 315px; /* Altura desejada para a imagem e o vídeo */
+    overflow: hidden; /* Garante que o conteúdo que ultrapassa o contêiner seja escondido */
+}
+
+.foto img {
     width: 100%; /* Faz com que a imagem preencha o contêiner */
     height: 100%; /* Faz com que a imagem preencha o contêiner */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
-  }
-  
-  .foto iframe {
+}
+
+.foto iframe {
     width: 100%; /* Faz com que o iframe preencha o contêiner */
     height: 100%; /* Faz com que o iframe preencha o contêiner */
-  }
+    border: none; /* Remove a borda do iframe */
+}
+
   
